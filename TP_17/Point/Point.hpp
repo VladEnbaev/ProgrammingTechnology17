@@ -11,4 +11,14 @@
 
 #include <stdio.h>
 
+struct Point {
+    int x;
+    int y;
+    int z;
+    
+    bool operator<(const Point& other) const {
+        return x < other.x || (x == other.x && y < other.y) || (x == other.x && y == other.y && z < other.z);
+    }
+};
+
 #endif /* Point_hpp */

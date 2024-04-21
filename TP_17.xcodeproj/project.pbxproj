@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		FF8C110D2BC2D39300C5F9D1 /* TP_17 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP_17; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8C11102BC2D39300C5F9D1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FFC0756C2BC2EC340041CCC6 /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		FFDA661B2BC2DE9700B0B6A2 /* SortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortedArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,27 @@
 		FF8C110F2BC2D39300C5F9D1 /* TP_17 */ = {
 			isa = PBXGroup;
 			children = (
+				FFC0756A2BC2EC290041CCC6 /* Point */,
+				FFDA66192BC2DE7800B0B6A2 /* SortedArray */,
 				FF8C11102BC2D39300C5F9D1 /* main.cpp */,
 			);
 			path = TP_17;
+			sourceTree = "<group>";
+		};
+		FFC0756A2BC2EC290041CCC6 /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				FFC0756C2BC2EC340041CCC6 /* Point.hpp */,
+			);
+			path = Point;
+			sourceTree = "<group>";
+		};
+		FFDA66192BC2DE7800B0B6A2 /* SortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA661B2BC2DE9700B0B6A2 /* SortedArray.hpp */,
+			);
+			path = SortedArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
